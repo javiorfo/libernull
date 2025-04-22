@@ -1,0 +1,18 @@
+.{
+    .name = "libernull",
+    .version = "0.1.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .epub = .{
+            .url = "https://github.com/javiorfo/zig-epub/archive/refs/heads/master.tar.gz",
+            .hash = "1220b002b9210268c057ac0eebe9ca8c57ec1e53c504e2db4246209657119135deb3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
