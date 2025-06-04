@@ -15,7 +15,7 @@ pub fn usage() !MemUsage {
 
     const contents = buffer[0..bytes_read];
 
-    var lines = std.mem.split(u8, contents, "\n");
+    var lines = std.mem.splitSequence(u8, contents, "\n");
     var meminfo = MemUsage{};
     while (lines.next()) |line| {
         try setValue(&meminfo.total, line, "MemTotal:");

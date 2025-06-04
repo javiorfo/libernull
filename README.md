@@ -3,7 +3,7 @@
 
 ## Caveats
 - C libs dependencies: `asound`, `libnm`, `glib-2.0` 
-- Required Zig version: **0.13**
+- Required Zig version: **0.14.1**
 - This library has been developed on and for Linux following open source philosophy.
 
 ## Usage
