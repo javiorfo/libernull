@@ -1,0 +1,13 @@
+[package]
+name = "libernull"
+version = "0.1.0"
+edition = "2024"
+description = "Minimal markup-based typesetting system for authors/writers"
+authors = ["Javier Orfo <javierorfo@protonmail.com>"]
+license = "MIT"
+repository = "https://github.com/javiorfo/libernull"
+homepage = "https://github.com/javiorfo/libernull#readme"
+keywords = ["markup", "markup-language", "epub", "epub-generation"]
+
+[dependencies]
+liber = "0.1.1"
