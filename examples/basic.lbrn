@@ -1,0 +1,23 @@
+@autor(Author)
+@title(My Book)
+@cover(/path/something.jpg)
+@font(/path/font.ttf)
+@identifier() # optional
+
+@defaultFont(Helvetica;8)
+
+~class(custom) { font-family:"Helvetica Neue", Helvetica, Verdana, Arial, "Trebuchet MS", Trebuchet, sans-serif; }
+
+@body(@preface(Preface)) {
+    @bold(@underline(Prefacio))
+}
+
+@text(Chapter 1) {
+    @header1(@bold(UNO))
+
+    @reference(Section 1.1) {
+        @custom(
+            Texto acá
+        )
+    }
+}
